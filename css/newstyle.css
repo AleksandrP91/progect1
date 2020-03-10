@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*********************************HEADER****************************/
+
+header {
+/*    position: relative;*/
+    background-color: #161616;
+    min-height: 600px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0 39px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .header__logotype {
+    display: inline-block;
+    width: 91px;
+    height: 36px;
+    background: url('../images/logotype.png') center center/cover no-repeat; 
+}
+
+nav .header__link {
+    display: contents;
+    list-style: none;
+}
+
+nav .header__link a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+h1.header__title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 45px;
+    margin-top: 160px;
+    width: 560px;
+    height: 130px;
+    font-size: 27px;
+    font-weight: 300;
+    color: #fff;
+}
+
+header .header__btn button {
+    margin-top: 50px;
+    width: 214px;
+    height: 60px;
+    background-color: #ffe500;
+    border: none;
+    color: #161616;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+header .header__img {
+    position: relative;
+}
+
+header .header__img img {
+    width: 900px;
+    position: absolute;
+    right: -375px;
+    top: -290px;
+    z-index: 1;
+}
+
+/***********************catalog*******************/
+
+.catalog {
+    background-color: #f1f2f5;
+    padding: 200px 0 76px 0;
+    min-height: 1860px;
+}
+
+h2.catalog__title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.catalog .catalog__images ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
+.catalog .catalog__images ul li {
+    background-color: #fff; 
+    width: 370px;
+    height: 460px;
+    margin-top: 45px;
+}
+
+.catalog .catalog__images ul li:hover {
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+
+.catalog .catalog__images ul li img {
+    width: 370px;
+    height: 345px;
+}
+
+.catalog .catalog__images .catalog__desc {
+    color: #161616;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 24px 0 0 30px;
+}
+
+/******************mainblock****************/
+
+.mainblock {
+    min-height: 2250px;
+    padding: 100px 0 75px 0;
+}
+
+h2.mainblock__title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mainblock .mainblock__item ul{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 84px 0 65px 0;
+}
+
+.mainblock .mainblock__item ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 85px;
+    width: 300px;
+}
+
+.mainblock .mainblock__item .mainblock__cub {
+    width: 51px;
+    height: 51px;
+    background-color: #ffe500;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.mainblock .mainblock__number {
+    position: absolute;
+    font-size: 20px;
+    left: 100px;
+    top: 115px;
+    opacity: .1;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.mainblock .mainblock__item .mainblock__desc {
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
+    width: 180px;
+}
+
+h2.mainblock__subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mainblock .mainblock__images {
+    margin-top: 45px;
+    width: 1110px;
+    height: 693px;
+    background: url('../images/Group%2064%201.png') center center/cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
